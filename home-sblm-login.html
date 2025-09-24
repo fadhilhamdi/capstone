@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" 
+        content="width=device-width, 
+                  initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" 
+          rel="stylesheet">
+  <title>Delay2Say</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+
+  <!-- Navbar -->
+ <nav class="bg-white shadow-md fixed w-full z-10">
+  <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+   <a href="#" class="text-2xl font-bold font-Poppins">
+      <span class="text-green-500">DELAY</span><span class="text-pink-500">2</span><span class="text-purple-600">SAY</span>
+</a>
+      <div class="space-x-11 text-lg font-Poppins font-bold">
+  <a href="#" class="text-blue-500">Home</a>
+  <a href="#" class="text-gray-800 hover:text-blue-500">Edukasi</a>
+  <a href="#" class="text-gray-800 hover:text-blue-500">Tentang</a>
+  <a href="#" class="text-gray-800 hover:text-blue-500">Login</a>
+</div>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <section 
+  class="relative h-screen flex items-center justify-center bg-cover bg-center"
+  style="background-image: url('homepage.png');"
+> <!-- Overlay -->
+  <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+  <!-- Content -->
+  <div class="relative text-center text-white px-6">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">
+      Deteksi Dini Speech Delay
+    </h1>
+    <p class="text-xl leading-tight">
+      Membantu orang tua mengenali gejala keterlambatan bicara <br />
+      dengan cepat dan mudah
+    </p> <br /><br />
+    <a 
+      href="#"
+      class="bg-blue-400 hover:bg-blue-500 text-white font-semibold py-3 px-6 rounded-full shadow-lg"
+    > Mulai Screening
+    </a>
+  </div>
+</section>
+
+<section id="speech-delay" 
+          style="padding: 50px 0; 
+                background: #fff;">
+  <div style="max-width: 1200px; 
+              margin: auto; 
+              display: flex; 
+              align-items: center; 
+              gap: 40px;">
+    <!-- Teks -->
+    <div style="flex: 1;">
+      <h2 style="font-size: 32px; 
+                  font-weight: bold; 
+                  color: #333;">
+                  Apa itu Speech Delay?
+                </h2>
+      <p style="font-size: 16px; 
+                color: #555; 
+                line-height: 1.6;">
+                Speech delay merupakan salah satu gangguan perkembangan komunikasi yang paling umum terjadi pada anak usia dini. 
+                Anak dengan kondisi ini mengalami hambatan dalam kemampuan berbicara, memahami kata, dan mengekspresikan diri secara verbal. 
+                Menurut para ahli keterlambatan bicara dapat disebabkan oleh factor neurologis, psikologis, genetic, 
+                serta kurangnya stimulasi dan lingkungan sekitar. Jika tidak ditangani sejak dini, gangguan ini akan menghambat 
+                kemampuan social, emosi, dan kognitif anak. 
+                </p>
+              </div>
+    <!-- Gambar -->
+    <div style="flex: 1;">
+      <img src="bayi.png" 
+            alt="Speech Delay" 
+            style="width: 100%; 
+                  border-radius: 12px;">
+    </div>
+  </div>
+</section>
+
+  <section>
+    <h2>Fitur Utama Aplikasi</h2>
+    <div class="cards">
+      <!-- Card 1 -->
+      <a href="#" class="card" style="background:#fde68a;">
+        <img src="screening.png" alt="Screening Gejala">
+        <div class="card-title">Screening Gejala</div>
+        <div class="icon-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </div>
+      </a>
+      <!-- Card 2 -->
+      <a href="#" class="card" style="background:#fbcfe8;">
+        <img src="diagnosis-awal.png" alt="Diagnosis Awal">
+        <div class="card-title">Diagnosis Awal</div>
+        <div class="icon-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </div>
+      </a>
+      <!-- Card 3 -->
+      <a href="#" class="card" style="background:#bae6fd;">
+        <img src="monitoring.png" alt="Monitoring">
+        <div class="card-title">Monitoring Perkembangan</div>
+        <div class="icon-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </div>
+      </a>
+      <!-- Card 4 -->
+      <a href="#" class="card" style="background:#bfdbfe;">
+        <img src="edukasi-tips.png" alt="Edukasi">
+        <div class="card-title">Edukasi & Tips</div>
+        <div class="icon-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </div>
+      </a>
+    </div>
+
+    <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    section {
+      padding: 180px 0;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 40px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      border-radius: 12px;
+      width: 213px;
+      height: 327px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px) scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .card img {
+      width: 164px;
+      height: 164px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .card-title {
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .icon-circle {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: #e5e7eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition:  0.3s ease;
+    }
+
+    .card:hover .icon-circle {
+      background: #374151;
+    }
+
+    .icon-circle svg {
+      width: 24px;
+      height: 24px;
+      color: #374151;
+      transition: color 0.3s ease;
+    }
+
+    .card:hover .icon-circle svg {
+      color: #fff;
+    }
+  </style>
+  </section>
+</body>
+</html>
+</body>
+</html>
