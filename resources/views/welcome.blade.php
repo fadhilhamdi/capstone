@@ -33,21 +33,18 @@
     </style>
 </head>
 <body class="gradient-bg min-h-screen flex flex-col">
-
-  <!-- Navbar -->
-  <nav class="bg-white shadow-md fixed w-full z-10">
-    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-      <a href="#" class="text-2xl font-bold font-Poppins">
-          <span class="text-accent">DELAY</span><span class="text-pink">2</span><span class="text-logo">SAY</span>
-      </a>
-      <div class="space-x-11 text-lg font-Poppins font-bold">
-        <a href="home-sblm-login.html" class="text-blue-500">Home</a>
-        <a href="#" class="text-gray-800 hover:text-blue-500">Edukasi</a>
-        <a href="#" class="text-gray-800 hover:text-blue-500">Tentang</a>
-        <a href="{{ route('login') }}" class="text-gray-800 hover:text-blue-500">Login</a>
-      </div>
-    </div>
-  </nav>
+    <!-- Navbar -->
+    <nav class="w-full flex justify-between items-center px-6 py-4 bg-white shadow-sm">
+        <div class="text-2xl font-bold text-gray-800">
+            <span class="text-accent">DELAY</span><span class="text-pink">2</span><span class="text-logo">SAY</span>
+        </div>
+        <ul class="flex space-x-6 font-medium text-gray-600">
+            <li><a href="/" class="text-primary font-semibold">Home</a></li>
+            <li><a href="/edukasi" class="hover:text-primary transition-colors duration-200">Edukasi</a></li>
+            <li><a href="/tentang" class="hover:text-primary transition-colors duration-200">Tentang</a></li>
+            <li><a href="/login" class="hover:text-primary transition-colors duration-200">Login</a></li>
+        </ul>
+    </nav>
 
   <!-- Hero Section -->
   <section 
