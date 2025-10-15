@@ -7,12 +7,10 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-gray-100 font-sans antialiased">
-    <div class="flex min-h-screen">
-        <!-- Sidebar -->
+    <div class="flex h-screen overflow-hidden"> {{-- Changed min-h-screen to h-screen and added overflow-hidden --}}
         <x-sidebar />
 
-        <!-- Main Content -->
-        <main class="flex-1 p-8">
+        <main class="flex-1 overflow-y-auto"> {{-- Removed p-8, added overflow-y-auto --}}
             {{ $slot }}
         </main>
     </div>

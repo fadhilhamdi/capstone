@@ -48,10 +48,10 @@
 
     {{-- Main Content --}}
         <div class="flex-1 flex items-center justify-center px-4 py-12">
-        <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+              <div class="w-full max-w-xl bg-white rounded-2xl shadow-lg p-10">
             {{-- Header Section --}}
             <!-- Header -->
-            <div class="text-center justify-between mb-8">
+            <div class="text-center mt-3 justify-between mb-8">
                 <h1 class="text-3xl font-bold text-gray-800 mb-2"><span class="text-accent">DELAY</span><span class="text-pink">2</span><span class="text-logo">SAY</span>
                 <p class="text-sm font-normal text-gray-500">Early Speech Delay Detection Platform</p>
             </div>
@@ -112,18 +112,6 @@
                             </button>
                         </div>
                     </div>
-                </div>
-                
-                <!-- Remember & Forgot -->
-                <div class="flex items-center justify-between mb-6">
-                    <label class="flex items-center">
-                        <input type="checkbox" name="remember" class="h-4 w-4 text-primary border-gray-300 rounded focus:ring-primary">
-                        <span class="ml-2 text-sm text-gray-600">Remember me</span>
-                    </label>
-
-                    <a class="text-sm text-primary hover:text-secondary transition-colors duration-200" href="#">
-                        Forgot password?
-                    </a>
                 </div>
 
                 <!-- Button -->
