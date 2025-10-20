@@ -7,15 +7,11 @@ use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
-    /**
-     * Seed the application's database.
-     */
    public function run(): void
-{
-    $this->call([
+    {
+        $this->call([
             QuestionSeeder::class,
-            CaseBaseSeeder::class, // kalau kamu mau datasetnya ikut masuk
+            // Seeder lain bisa ditambahkan di sini
         ]);
-}
-
+    }
 }

@@ -89,7 +89,7 @@
             <!-- Screening Section -->
             <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-6">
                 <h2 class="text-lg font-semibold text-gray-700 mb-4">Screening</h2>
-                <a href="{{ route('screening') }}">
+                <a href="{{ route('screening.index') }}">
                     <div class="flex items-center justify-center">
                         <button class="bg-[#44B3E0] hover:bg-[#3A9BC7] text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200">
                             + Mulai Screening

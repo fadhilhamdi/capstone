@@ -5,12 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Question extends Model
+class ScreeningAnswer extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'question_text',
-        'category',
+        'session_id',
+        'question_id',
+        'score',
     ];
 }
